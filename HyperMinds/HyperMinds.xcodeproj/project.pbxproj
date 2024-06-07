@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E4902EE2C13CB3200D257CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E4902EC2C13CB3200D257CF /* Preview Assets.xcassets */; };
 		9EA5875E2C0A8EEF007776D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA5875D2C0A8EEF007776D9 /* AppDelegate.swift */; };
 		9EA587602C0A8EEF007776D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA5875F2C0A8EEF007776D9 /* SceneDelegate.swift */; };
 		9EA587622C0A8EEF007776D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA587612C0A8EEF007776D9 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E4902EC2C13CB3200D257CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9EA5875A2C0A8EEF007776D9 /* Hyper Minds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hyper Minds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EA5875D2C0A8EEF007776D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EA5875F2C0A8EEF007776D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E4902E92C13CABB00D257CF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9E4902EB2C13CAF800D257CF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9E4902ED2C13CB3200D257CF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9E4902EC2C13CB3200D257CF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9E4902EF2C13CB7000D257CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		9EA587512C0A8EEF007776D9 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +87,10 @@
 		9EA5875C2C0A8EEF007776D9 /* HyperMinds */ = {
 			isa = PBXGroup;
 			children = (
+				9E4902EF2C13CB7000D257CF /* Views */,
+				9E4902ED2C13CB3200D257CF /* Preview Content */,
+				9E4902EB2C13CAF800D257CF /* Models */,
+				9E4902E92C13CABB00D257CF /* Components */,
 				9EA5875D2C0A8EEF007776D9 /* AppDelegate.swift */,
 				9EA5875F2C0A8EEF007776D9 /* SceneDelegate.swift */,
 				9EA587612C0A8EEF007776D9 /* ViewController.swift */,
@@ -125,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E4902EE2C13CB3200D257CF /* Preview Assets.xcassets in Resources */,
 				9EA587672C0A8EF2007776D9 /* Assets.xcassets in Resources */,
 				9EA5876A2C0A8EF2007776D9 /* Base in Resources */,
 				9EA587652C0A8EEF007776D9 /* Base in Resources */,
