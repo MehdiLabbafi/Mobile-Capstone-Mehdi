@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5833A9DB29A8EAA900E72FEC /* CategoryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5833A9DA29A8EAA900E72FEC /* CategoryCard.swift */; };
+		58B1671329AC92A9005313C5 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B1671229AC92A9005313C5 /* Launch Screen.storyboard */; };
+		58DFC1FA29A7256400DBCF0C /* HyperMinds_QuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DFC1F929A7256400DBCF0C /* HyperMinds_QuizApp.swift */; };
+		58DFC1FC29A7256400DBCF0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DFC1FB29A7256400DBCF0C /* ContentView.swift */; };
+		58DFC1FE29A7256600DBCF0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58DFC1FD29A7256600DBCF0C /* Assets.xcassets */; };
+		58DFC20129A7256600DBCF0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58DFC20029A7256600DBCF0C /* Preview Assets.xcassets */; };
+		58DFC20929A726E300DBCF0C /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DFC20829A726E300DBCF0C /* PrimaryButton.swift */; };
+		58DFC21029A72BB600DBCF0C /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DFC20F29A72BB600DBCF0C /* ProgressView.swift */; };
+		58DFC21329A72F3D00DBCF0C /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DFC21229A72F3D00DBCF0C /* Answer.swift */; };
+		58DFC21529A72FBD00DBCF0C /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DFC21429A72FBD00DBCF0C /* AnswerRow.swift */; };
+		58DFC21929A741F500DBCF0C /* HyperMinds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DFC21829A741F500DBCF0C /* HyperMinds.swift */; };
+		58DFC21B29A75F4300DBCF0C /* HyperMindsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DFC21A29A75F4300DBCF0C /* HyperMindsManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5833A9DA29A8EAA900E72FEC /* CategoryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCard.swift; sourceTree = "<group>"; };
+		58B1671229AC92A9005313C5 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		58DFC1F629A7256400DBCF0C /* Hyper Minds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hyper Minds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58DFC1F929A7256400DBCF0C /* HyperMinds_QuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperMinds_QuizApp.swift; sourceTree = "<group>"; };
+		58DFC1FB29A7256400DBCF0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		58DFC1FD29A7256600DBCF0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58DFC20029A7256600DBCF0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		58DFC20829A726E300DBCF0C /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		58DFC20F29A72BB600DBCF0C /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		58DFC21229A72F3D00DBCF0C /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		58DFC21429A72FBD00DBCF0C /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
+		58DFC21829A741F500DBCF0C /* HyperMinds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperMinds.swift; sourceTree = "<group>"; };
+		58DFC21A29A75F4300DBCF0C /* HyperMindsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperMindsManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58DFC1F329A7256400DBCF0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58DFC1ED29A7256400DBCF0C = {
+			isa = PBXGroup;
+			children = (
+				58DFC1F829A7256400DBCF0C /* Hyper Minds */,
+				58DFC1F729A7256400DBCF0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58DFC1F729A7256400DBCF0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58DFC1F629A7256400DBCF0C /* Hyper Minds.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58DFC1F829A7256400DBCF0C /* Hyper Minds */ = {
+			isa = PBXGroup;
+			children = (
+				58DFC21129A72F3200DBCF0C /* Models */,
+				58DFC20A29A727C500DBCF0C /* Views */,
+				58DFC20729A726CF00DBCF0C /* Components */,
+				58DFC1F929A7256400DBCF0C /* HyperMinds_QuizApp.swift */,
+				58DFC1FD29A7256600DBCF0C /* Assets.xcassets */,
+				58DFC1FF29A7256600DBCF0C /* Preview Content */,
+				58DFC21A29A75F4300DBCF0C /* HyperMindsManager.swift */,
+				58B1671229AC92A9005313C5 /* Launch Screen.storyboard */,
+			);
+			path = "Hyper Minds";
+			sourceTree = "<group>";
+		};
+		58DFC1FF29A7256600DBCF0C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				58DFC20029A7256600DBCF0C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		58DFC20729A726CF00DBCF0C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				58DFC20829A726E300DBCF0C /* PrimaryButton.swift */,
+				58DFC20F29A72BB600DBCF0C /* ProgressView.swift */,
+				58DFC21429A72FBD00DBCF0C /* AnswerRow.swift */,
+				5833A9DA29A8EAA900E72FEC /* CategoryCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		58DFC20A29A727C500DBCF0C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				58DFC1FB29A7256400DBCF0C /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		58DFC21129A72F3200DBCF0C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				58DFC21229A72F3D00DBCF0C /* Answer.swift */,
+				58DFC21829A741F500DBCF0C /* HyperMinds.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58DFC1F529A7256400DBCF0C /* Hyper Minds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58DFC20429A7256600DBCF0C /* Build configuration list for PBXNativeTarget "Hyper Minds" */;
+			buildPhases = (
+				58DFC1F229A7256400DBCF0C /* Sources */,
+				58DFC1F329A7256400DBCF0C /* Frameworks */,
+				58DFC1F429A7256400DBCF0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hyper Minds";
+			productName = "Trivia Quiz";
+			productReference = 58DFC1F629A7256400DBCF0C /* Hyper Minds.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58DFC1EE29A7256400DBCF0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					58DFC1F529A7256400DBCF0C = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 58DFC1F129A7256400DBCF0C /* Build configuration list for PBXProject "Hyper Minds" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58DFC1ED29A7256400DBCF0C;
+			productRefGroup = 58DFC1F729A7256400DBCF0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58DFC1F529A7256400DBCF0C /* Hyper Minds */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58DFC1F429A7256400DBCF0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B1671329AC92A9005313C5 /* Launch Screen.storyboard in Resources */,
+				58DFC20129A7256600DBCF0C /* Preview Assets.xcassets in Resources */,
+				58DFC1FE29A7256600DBCF0C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58DFC1F229A7256400DBCF0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58DFC21929A741F500DBCF0C /* HyperMinds.swift in Sources */,
+				58DFC20929A726E300DBCF0C /* PrimaryButton.swift in Sources */,
+				58DFC21B29A75F4300DBCF0C /* HyperMindsManager.swift in Sources */,
+				58DFC21529A72FBD00DBCF0C /* AnswerRow.swift in Sources */,
+				5833A9DB29A8EAA900E72FEC /* CategoryCard.swift in Sources */,
+				58DFC1FC29A7256400DBCF0C /* ContentView.swift in Sources */,
+				58DFC21329A72F3D00DBCF0C /* Answer.swift in Sources */,
+				58DFC1FA29A7256400DBCF0C /* HyperMinds_QuizApp.swift in Sources */,
+				58DFC21029A72BB600DBCF0C /* ProgressView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		58DFC20229A7256600DBCF0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58DFC20329A7256600DBCF0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58DFC20529A7256600DBCF0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hyper Minds/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mehdi.Hyper-Minds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58DFC20629A7256600DBCF0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hyper Minds/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mehdi.Hyper-Minds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58DFC1F129A7256400DBCF0C /* Build configuration list for PBXProject "Hyper Minds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58DFC20229A7256600DBCF0C /* Debug */,
+				58DFC20329A7256600DBCF0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58DFC20429A7256600DBCF0C /* Build configuration list for PBXNativeTarget "Hyper Minds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58DFC20529A7256600DBCF0C /* Debug */,
+				58DFC20629A7256600DBCF0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58DFC1EE29A7256400DBCF0C /* Project object */;
+}
