@@ -2,7 +2,7 @@
 //  hypermindsView.swift
 //  hyperminds Quiz
 //
-//  Created by tab32 on 23/02/23.
+//  Created by Mehdi on 09/08/24.
 //
 
 import SwiftUI
@@ -11,14 +11,19 @@ struct hypermindsView: View {
     @EnvironmentObject var hypermindsmanger : hypermindsManager
     @Environment(\.presentationMode) var presentation
     var body: some View {
-        if hypermindsmanger.reachedEnd{
-            VStack(spacing:20){
+        if hypermindsmanger.reachedEnd {
+            VStack(spacing: 20) {
                 Text("hyperminds Quiz")
                     .hypermindstitle()
-                
+
                 Text("Congratulations you completed game! 🥳")
-                Text("You Score \(hypermindsmanger.score) out of \(hypermindsmanger.length)")
                 
+                Text("Game Made by: Mehdi Labbafi 🎮")
+                    .font(.subheadline)
+                    .foregroundColor(.black) 
+
+                Text("You Score \(hypermindsmanger.score) out of \(hypermindsmanger.length)")
+
                 Button {
                     Task.init {
                         await hypermindsmanger.fetchhyperminds()
@@ -26,7 +31,7 @@ struct hypermindsView: View {
                 } label: {
                     PrimaryButton(text: "Play Again")
                 }
-                
+
                 Button {
                     hypermindsmanger.setReachedEnd(value: false)
                     presentation.wrappedValue.dismiss()
@@ -34,12 +39,13 @@ struct hypermindsView: View {
                     PrimaryButton(text: "Home")
                 }
 
-            }.foregroundColor(Color("AccentColor"))
-                .padding()
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background(Color("AccentColor2"))
-                .navigationBarHidden(true)
-        }else{
+            }
+            .foregroundColor(Color("AccentColor"))
+            .padding()
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(Color("AccentColor2"))
+            .navigationBarHidden(true)
+        } else {
             QuestionViews()
                 .environmentObject(hypermindsmanger)
         }
@@ -48,10 +54,7 @@ struct hypermindsView: View {
 
 struct hypermindsView_Previews: PreviewProvider {
     static var previews: some View {
-      //  NavigationView {
-            hypermindsView()
-                .environmentObject(hypermindsManager())
-      //  }
-        
+        hypermindsView()
+            .environmentObject(hypermindsManager())
     }
 }

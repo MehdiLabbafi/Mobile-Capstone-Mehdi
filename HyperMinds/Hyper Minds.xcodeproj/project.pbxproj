@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5833A9D929A8EA4C00E72FEC /* CategorysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5833A9D829A8EA4C00E72FEC /* CategorysView.swift */; };
 		5833A9DB29A8EAA900E72FEC /* CategoryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5833A9DA29A8EAA900E72FEC /* CategoryCard.swift */; };
 		58B1671329AC92A9005313C5 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B1671229AC92A9005313C5 /* Launch Screen.storyboard */; };
 		58DFC1FA29A7256400DBCF0C /* HyperMinds_QuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DFC1F929A7256400DBCF0C /* HyperMinds_QuizApp.swift */; };
@@ -14,14 +15,18 @@
 		58DFC1FE29A7256600DBCF0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58DFC1FD29A7256600DBCF0C /* Assets.xcassets */; };
 		58DFC20129A7256600DBCF0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58DFC20029A7256600DBCF0C /* Preview Assets.xcassets */; };
 		58DFC20929A726E300DBCF0C /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DFC20829A726E300DBCF0C /* PrimaryButton.swift */; };
+		58DFC20C29A72A1C00DBCF0C /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DFC20B29A72A1C00DBCF0C /* Extension.swift */; };
+		58DFC20E29A72AC600DBCF0C /* QuestionViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DFC20D29A72AC600DBCF0C /* QuestionViews.swift */; };
 		58DFC21029A72BB600DBCF0C /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DFC20F29A72BB600DBCF0C /* ProgressView.swift */; };
 		58DFC21329A72F3D00DBCF0C /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DFC21229A72F3D00DBCF0C /* Answer.swift */; };
 		58DFC21529A72FBD00DBCF0C /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DFC21429A72FBD00DBCF0C /* AnswerRow.swift */; };
+		58DFC21729A7353E00DBCF0C /* HyperMindsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DFC21629A7353E00DBCF0C /* HyperMindsView.swift */; };
 		58DFC21929A741F500DBCF0C /* HyperMinds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DFC21829A741F500DBCF0C /* HyperMinds.swift */; };
 		58DFC21B29A75F4300DBCF0C /* HyperMindsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DFC21A29A75F4300DBCF0C /* HyperMindsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5833A9D829A8EA4C00E72FEC /* CategorysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorysView.swift; sourceTree = "<group>"; };
 		5833A9DA29A8EAA900E72FEC /* CategoryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCard.swift; sourceTree = "<group>"; };
 		58B1671229AC92A9005313C5 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		58DFC1F629A7256400DBCF0C /* Hyper Minds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hyper Minds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,9 +35,12 @@
 		58DFC1FD29A7256600DBCF0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58DFC20029A7256600DBCF0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		58DFC20829A726E300DBCF0C /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		58DFC20B29A72A1C00DBCF0C /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		58DFC20D29A72AC600DBCF0C /* QuestionViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViews.swift; sourceTree = "<group>"; };
 		58DFC20F29A72BB600DBCF0C /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		58DFC21229A72F3D00DBCF0C /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
 		58DFC21429A72FBD00DBCF0C /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
+		58DFC21629A7353E00DBCF0C /* HyperMindsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperMindsView.swift; sourceTree = "<group>"; };
 		58DFC21829A741F500DBCF0C /* HyperMinds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperMinds.swift; sourceTree = "<group>"; };
 		58DFC21A29A75F4300DBCF0C /* HyperMindsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperMindsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +81,7 @@
 				58DFC1F929A7256400DBCF0C /* HyperMinds_QuizApp.swift */,
 				58DFC1FD29A7256600DBCF0C /* Assets.xcassets */,
 				58DFC1FF29A7256600DBCF0C /* Preview Content */,
+				58DFC20B29A72A1C00DBCF0C /* Extension.swift */,
 				58DFC21A29A75F4300DBCF0C /* HyperMindsManager.swift */,
 				58B1671229AC92A9005313C5 /* Launch Screen.storyboard */,
 			);
@@ -102,6 +111,9 @@
 			isa = PBXGroup;
 			children = (
 				58DFC1FB29A7256400DBCF0C /* ContentView.swift */,
+				58DFC20D29A72AC600DBCF0C /* QuestionViews.swift */,
+				58DFC21629A7353E00DBCF0C /* HyperMindsView.swift */,
+				5833A9D829A8EA4C00E72FEC /* CategorysView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,14 +198,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58DFC20E29A72AC600DBCF0C /* QuestionViews.swift in Sources */,
+				58DFC21729A7353E00DBCF0C /* HyperMindsView.swift in Sources */,
 				58DFC21929A741F500DBCF0C /* HyperMinds.swift in Sources */,
 				58DFC20929A726E300DBCF0C /* PrimaryButton.swift in Sources */,
 				58DFC21B29A75F4300DBCF0C /* HyperMindsManager.swift in Sources */,
 				58DFC21529A72FBD00DBCF0C /* AnswerRow.swift in Sources */,
 				5833A9DB29A8EAA900E72FEC /* CategoryCard.swift in Sources */,
+				5833A9D929A8EA4C00E72FEC /* CategorysView.swift in Sources */,
 				58DFC1FC29A7256400DBCF0C /* ContentView.swift in Sources */,
 				58DFC21329A72F3D00DBCF0C /* Answer.swift in Sources */,
 				58DFC1FA29A7256400DBCF0C /* HyperMinds_QuizApp.swift in Sources */,
+				58DFC20C29A72A1C00DBCF0C /* Extension.swift in Sources */,
 				58DFC21029A72BB600DBCF0C /* ProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
